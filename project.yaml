@@ -1,30 +1,24 @@
 # .project metadata for Cloud Custodian
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set slack_channels
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "cloud-custodian"
 name: "Cloud Custodian"
 description: "Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources"
 type: "project"
-project_lead: "kapilt" # TODO: AUTO-DETECTED — please verify
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#cloud-custodian"
-#     primary: true
+project_lead: "kapilt"
+slack_channels:
+  - name: "#cloud-custodian"
+    primary: true
 
 maturity_log:
   - phase: "incubating"
     date: "2020-06-25T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/291" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/291"
 
 repositories: # TODO: AUTO-DETECTED primary — please verify
   - url: "https://github.com/cloud-custodian/cloud-custodian"
     primary: true
-    # tags: [core, sig-apps] # Optional
 
 website: "https://cloudcustodian.io/"
 
@@ -33,11 +27,9 @@ artwork: "https://landscape.cncf.io/logos/cloud-custodian.svg"
 adopters:
   path: "https://github.com/cloud-custodian/cloud-custodian/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "cloud-custodian/cloud-custodian"
-
+package_managers:
+  docker: "cloudcustodian/c7n"
+  pypi: "c7n"
 
 security:
   policy:
@@ -55,8 +47,8 @@ legal:
   license:
     path: "https://github.com/cloud-custodian/cloud-custodian/blob/main/LICENSE"
   identity_type:
-    has_dco: true
-    has_cla: false
+    has_dco: false
+    has_cla: true
     dco_url:
       path: "https://developercertificate.org/"
 
