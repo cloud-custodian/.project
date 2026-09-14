@@ -12,17 +12,20 @@ slack_channels:
     primary: true
 
 maturity_log:
-  - phase: "incubating"
+  - phase: "sandbox"
     date: "2020-06-25T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/291"
+    issue: "https://github.com/cncf/toc/pull/480"
+  - phase: "incubating"
+    date: "2022-09-15T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/644"
 
-repositories: # TODO: AUTO-DETECTED primary — please verify
+repositories:
   - url: "https://github.com/cloud-custodian/cloud-custodian"
     primary: true
 
 website: "https://cloudcustodian.io/"
 
-artwork: "https://landscape.cncf.io/logos/cloud-custodian.svg"
+artwork: "https://github.com/cncf/artwork/raw/refs/heads/main/projects/cloudcustodian/stacked/color/cloudcustodian-stacked-color.svg"
 
 adopters:
   path: "https://github.com/cloud-custodian/cloud-custodian/blob/main/ADOPTERS.md"
