@@ -1,0 +1,14 @@
+project.yaml
+  h_07d49deca46b44 30-32,50-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b3d771da9a1f70a927e0fec1051d083dcc213e52",
+  "prompts": {},
+  "humans": {
+    "h_07d49deca46b44": {
+      "author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
