@@ -25,7 +25,7 @@ repositories:
 
 website: "https://cloudcustodian.io/"
 
-artwork: "https://github.com/cncf/artwork/raw/refs/heads/main/projects/cloudcustodian/stacked/color/cloudcustodian-stacked-color.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/cloudcustodian"
 
 adopters:
   path: "https://github.com/cloud-custodian/cloud-custodian/blob/main/ADOPTERS.md"
